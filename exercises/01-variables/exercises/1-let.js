@@ -5,17 +5,22 @@
 // and don't just write the correct answer directly!
 //  you should use firstFiveLetters to fill in one blank for each step
 
-_;
-console.log(firstFiveLetters); // should log "c"
+var firstFiveLetters = "c" ;
+console.log(firstFiveLetters);
 
-firstFiveLetters = _ + _;
-console.log(firstFiveLetters); // should log "bc"
+var b ;
+firstFiveLetters = "b" + firstFiveLetters ;
+console.log(firstFiveLetters) ;
 
-firstFiveLetters = _ + _;
-console.log(firstFiveLetters); // should log "bcd"
+var d ;
+firstFiveLetters = firstFiveLetters+ "d" ;
+console.log(firstFiveLetters) ;
 
-firstFiveLetters = _ + _;
-console.log(firstFiveLetters); // should log "abcd"
+var a ;
+firstFiveLetters = "a" + firstFiveLetters ;
+console.log(firstFiveLetters) ;
 
-firstFiveLetters = _ + _;
-console.log(firstFiveLetters); // should log "abcde"
+var e ;
+firstFiveLetters = firstFiveLetters + "e" ;
+console.log (firstFiveLetters) ;
+
