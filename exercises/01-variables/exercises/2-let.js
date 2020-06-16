@@ -9,11 +9,14 @@ let fruit = 'banana';
 let desert = 'cake';
 let topping = 'frosting';
 
-_;
-console.log(desert); // should log 'chocolate cake'
+let chocolate ;
+desert = "chocolate" + desert ;
+console.log(desert) ;
 
-_;
-console.log(desert); // should log 'chocolate cake with frosting'
+let a = 'with'
+desert = desert + a + topping ;
+console.log(desert) ;
 
-_;
-console.log(desert); // should log 'chocolate cake with frosting and banana'
+let b = 'and'
+desert = desert + b + fruit ;
+console.log(desert) ;
